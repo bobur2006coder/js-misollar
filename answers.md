@@ -28,29 +28,16 @@ let a = + prompt("birinchi son");
 let b = + prompt("ikkinchi son");
 let c = + prompt("uchinchi son");
 
-function minumum(a,b,c) {
+function maximum(a,b,c) {
+    alert (Math.max(a,b,c));
     alert (Math.min(a,b,c));
     
     
     
 }
 
-minumum(a,b,c);
-
-
-
-let a = + prompt("birinchi son");
-let b = + prompt("ikkinchi son");
-let c = + prompt("uchinchi son");
-
-function maximum(a,b,c) {
-    alert (Math.max(a,b,c));
-    
-    
-    
-}
-
 maximum(a,b,c);
+
 
 
 {---------  3- answer --------------}
